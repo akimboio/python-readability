@@ -1,3 +1,6 @@
+Changes in VERSION 0.1.07
+    - No more data field in the main_image_dict
+
 Changes in VERSION 0.1.06
     - Fix bug where we were not grabbing the actual largest image. Thanx to
       github use boamaod for catching this.

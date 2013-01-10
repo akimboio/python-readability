@@ -127,7 +127,6 @@ class Document:
             'format': image_data.format,
             'size': image_data.size,
             'pix-area': image_data.size[0] * image_data.size[1],
-            'data': b64encode(fh.read())
         }
 
     def _img_big_enough(self, img_tag):
